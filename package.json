@@ -1,7 +1,7 @@
 {
   "name": "lighthouse-keeper",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rotate lighthouses, mirrors and coloured lenses to light the coast without waking the reef.",
   "author": "jd4rider",
   "type": "module",
