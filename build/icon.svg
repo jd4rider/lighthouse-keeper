@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123b56" />
+      <stop offset="0.65" stop-color="#071c2b" />
+      <stop offset="1" stop-color="#020a11" />
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fef3c7" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#fef3c7" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfd9e3" />
+      <stop offset="1" stop-color="#f8fafc" />
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#sky)" />
+
+  <g fill="#e0f2fe">
+    <circle cx="176" cy="188" r="6" opacity="0.8" />
+    <circle cx="268" cy="128" r="4" opacity="0.55" />
+    <circle cx="782" cy="168" r="5" opacity="0.7" />
+    <circle cx="860" cy="268" r="4" opacity="0.5" />
+    <circle cx="650" cy="118" r="3.5" opacity="0.6" />
+  </g>
+
+  <path d="M470 470 L1024 300 L1024 640 Z" fill="url(#beam)" />
+  <path d="M470 500 L780 430 L780 520 Z" fill="#fef9c3" opacity="0.35" />
+
+  <circle cx="470" cy="470" r="30" fill="#fde68a" />
+  <circle cx="470" cy="470" r="74" fill="#fde68a" opacity="0.22" />
+
+  <path d="M410 700 L530 700 L498 452 L442 452 Z" fill="url(#tower)" />
+  <path d="M421 606 L519 606 L512 552 L428 552 Z" fill="#f87171" />
+  <path d="M434 506 L506 506 L500 468 L440 468 Z" fill="#f87171" />
+
+  <rect x="424" y="418" width="92" height="46" rx="12" fill="#0f172a" />
+  <rect x="446" y="430" width="48" height="22" rx="6" fill="#fde68a" />
+
+  <rect x="360" y="700" width="220" height="44" rx="16" fill="#0b2231" />
+  <rect x="344" y="742" width="252" height="26" rx="13" fill="#12374a" />
+
+  <path d="M0 790 Q160 760 320 786 T640 782 T1024 792 L1024 1024 L0 1024 Z" fill="#04141f" opacity="0.85" />
+  <g stroke="#7dd3fc" stroke-width="6" stroke-linecap="round" opacity="0.35" fill="none">
+    <path d="M120 840 q40 -18 80 0 t80 0" />
+    <path d="M420 872 q40 -18 80 0 t80 0" />
+    <path d="M760 836 q40 -18 80 0 t80 0" />
+  </g>
+  <circle cx="222" cy="880" r="26" fill="#08222f" stroke="#fb7185" stroke-width="9" />
+  <circle cx="222" cy="880" r="8" fill="#fb7185" />
+</svg>
